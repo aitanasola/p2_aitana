@@ -1,5 +1,5 @@
 void aitana(float px, float py){
-  pushMatrix();
+  push();
   translate(px, py);
   background(200);
   rectMode(CENTER);
@@ -23,5 +23,5 @@ void aitana(float px, float py){
   arc(50,85,25,25, radians(60), radians(120));
   arc(50,50,90,25, radians(180), radians(360));
   arc(50,45,75,55, radians(180), radians(360));
-  popMatrix();
+  pop();
 }
